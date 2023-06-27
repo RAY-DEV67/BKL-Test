@@ -1,9 +1,12 @@
 import './App.css'
+import LandingPage from './pages/landingPage'
 
 function App() {
 
   return (
-    <div></div>
+    <div>
+      <LandingPage/>
+    </div>
       )
 }
 
