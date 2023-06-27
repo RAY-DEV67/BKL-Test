@@ -4,7 +4,7 @@ import LandingPage from './pages/landingPage'
 function App() {
 
   return (
-    <div>
+    <div className=''>
       <LandingPage/>
     </div>
       )
