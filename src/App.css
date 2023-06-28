@@ -17,4 +17,16 @@
   , #A522c23d, #221c38, #221c38
   );
 }
+.noAnimation {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: scale(0);
+}
 
+.showAnimation {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+  transition: all 1s;
+}

@@ -4,7 +4,7 @@ import left from "../assets/ion_arrow-back.svg";
 
 function Testimonials() {
   return (
-    <div className="my-[40px] lg:mt-[100px] lg:p-[100px] testimonial">
+    <div className="my-[40px] lg:mt-[100px] lg:p-[100px] testimonial pb-[40px]">
       <h2 className="pt-[40px] text-white text-[24px] lg:text-[40px] font-[600] text-center mb-[16px]">
         Testimonials
       </h2>

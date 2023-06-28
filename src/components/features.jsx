@@ -1,3 +1,5 @@
+import AnimatedDiv from "./Animation";
+
 function Features() {
   return (
     <div className="my-[40px]">
@@ -5,6 +7,7 @@ function Features() {
         Amazing Features for You
       </h2>
       <div className="flex flex-col lg:flex-row mx-[40px] lg:gap-y-[0px] lg:gap-x-[20px] gap-y-[20px]">
+        <AnimatedDiv>
         <div className="rounded-[8px] p-[20px] bg-[#4f467340]">
           <h3 className="mb-[16px] text-center text-white text-[15px] font-[600]">
             AI Powered Website Generation
@@ -15,6 +18,8 @@ function Features() {
             web designs into fully operational sites.
           </p>
         </div>
+        </AnimatedDiv>
+        <AnimatedDiv>
         <div className="rounded-[8px] p-[20px] bg-[#4f467340]">
           <h3 className="mb-[16px] text-center text-white text-[15px] font-[600]">
             Customizable Design Elements
@@ -25,7 +30,9 @@ function Features() {
             presence.
           </p>
         </div>
-        <div className="rounded-[8px] p-[20px] bg-[#4f467340]">
+        </AnimatedDiv>
+        <AnimatedDiv>
+        <div className="lg:h-[184px] rounded-[8px] p-[20px] bg-[#4f467340]">
           <h3 className="mb-[16px] text-center text-white text-[15px] font-[600]">
             User-Friendly Interface
           </h3>
@@ -35,7 +42,9 @@ function Features() {
             experience.
           </p>
         </div>
-        <div className="rounded-[8px] p-[20px] bg-[#4f467340]">
+        </AnimatedDiv>
+        <AnimatedDiv>
+        <div className="lg:h-[184px] rounded-[8px] p-[20px] bg-[#4f467340]">
           <h3 className="mb-[16px] text-center text-white text-[15px] font-[600]">
             Responsive Website Outputs
           </h3>
@@ -45,6 +54,7 @@ function Features() {
             desktops, laptops, tablets, and smartphones.
           </p>
         </div>
+        </AnimatedDiv>
       </div>
     </div>
   );

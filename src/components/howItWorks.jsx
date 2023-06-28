@@ -1,6 +1,7 @@
 import heroDesktop from "../assets/heroDesktop.png";
 import hero from "../assets/hero.png";
 import Ellipse from "../assets/Ellipse.svg";
+import AnimatedDiv from "./Animation";
 
 function HowItWorks() {
   return (
@@ -51,6 +52,7 @@ function HowItWorks() {
             </div>
           </div>
         </div>
+        <AnimatedDiv>
         <div className="mx-[20px] my-[40px] block lg:hidden">
         <img
           src={hero}
@@ -58,6 +60,8 @@ function HowItWorks() {
           className="border rounded-[10px] p-[8px] w-[100%]"
         />
       </div>
+        </AnimatedDiv>
+      <AnimatedDiv>
       <div className="hidden lg:block  h-[30px]  w-[970px] mr-[-270px] ml-[170px]">
         <img
           src={heroDesktop}
@@ -65,6 +69,7 @@ function HowItWorks() {
           className="border rounded-[10px] p-[8px] w-[100%]"
         />
       </div>
+      </AnimatedDiv>
       </div>
     </div>
   );
