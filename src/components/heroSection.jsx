@@ -1,6 +1,7 @@
 import hero from "../assets/hero.png";
 import heroDesktop from "../assets/heroDesktop.png";
 import AnimatedDiv from "./Animation";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Hero() {
   return (
@@ -17,14 +18,14 @@ function Hero() {
         Get Started
       </button>
       <div className="w-[100%] block lg:hidden">
-        <img
+        <LazyLoadImage
           src={hero}
           alt="neptis"
           className="border rounded-[10px] p-[8px] w-[100%]"
         />
       </div>
       <div className="w-[100%] hidden lg:block">
-        <img
+        <LazyLoadImage
           src={heroDesktop}
           alt="neptis"
           className="border rounded-[10px] p-[8px] w-[100%]"
