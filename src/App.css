@@ -1,8 +1,6 @@
 #root {
-  max-width: 1580px;
+  max-width: 1700px;
   margin: 0 auto;
-  /* padding: 2rem; */
-  /* text-align: center; */
   overflow: hidden;
 }
 @font-face {
