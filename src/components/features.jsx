@@ -3,7 +3,7 @@ import AnimatedDiv from "./Animation";
 function Features() {
   return (
     <div className="my-[40px]">
-      <h2 className="text-[24px] text-center text-white px-[8px] my-[40px]">
+      <h2 className="text-[24px] font-[600] text-center text-white px-[8px] my-[40px]">
         Amazing Features for You
       </h2>
       <div className="flex flex-col lg:flex-row mx-[40px] lg:gap-y-[0px] lg:gap-x-[20px] gap-y-[20px]">

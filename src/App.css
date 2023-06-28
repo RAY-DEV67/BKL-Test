@@ -5,6 +5,14 @@
   /* text-align: center; */
   overflow: hidden;
 }
+@font-face {
+  font-family: 'Museo';
+  src: url('./assets/font/museo_sans_ssv/Museo/MuseoSans-300.otf') format('truetype');
+}
+
+body {
+  font-family: 'Museo', sans-serif;
+}
 .testimonial {
   background: linear-gradient(0.25turn, #A522c23d
   , #2229d024
