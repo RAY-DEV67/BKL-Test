@@ -7,7 +7,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function HowItWorks() {
   return (
     <div className="mt-[40px]">
-      <h2 className="text-center text-white mx-[20px] text-[24px] font-[600] mb-[40px]">
+      <h2 className="text-center text-white mx-[20px] text-[24px] lg:text-[40px] font-[600] lg:mb-[40px]">
         How It Works
       </h2>
       <div className="flex flex-col lg:flex-row">
