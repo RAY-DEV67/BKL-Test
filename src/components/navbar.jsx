@@ -2,7 +2,7 @@ import logo from "../assets/bkllogo.png";
 import hamburger from "../assets/hamburger.svg";
 function Navbar() {
   return (
-    <div className="flex flex-row justify-between py-[16px] px-[20px]">
+    <div className="flex flex-row justify-between py-[16px] px-[20px] navbar">
       <div className="flex items-center">
         <img src={logo} alt="Logo" />
         <p className="text-white ml-[4px]">NEPTIS</p>
